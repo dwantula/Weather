@@ -1,0 +1,67 @@
+.App {
+	text-align: center;
+	padding: 50px;
+	display: flex;
+	position: block;
+	flex-direction: column;
+}
+
+.main {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	margin-top: -800px;
+	margin-left: 200px;
+}
+
+img {
+	width: 75%;
+	margin-left: 150px;
+}
+
+.header {
+	font-size: 45px;
+	margin-bottom: 50px;
+	letter-spacing: 2px;
+	color: gray;
+	display: flex;
+	position: relative;
+	margin-top: 150px;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	margin-top: -50px;
+}
+
+.input {
+	width: 200px;
+	height: 35px;
+	padding: 2px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	border: 2px solid gray;
+	border-radius: 8px;
+	outline: 0;
+}
+
+.button {
+	width: 150px;
+	height: 35px;
+	font-size: 16px;
+	color: white;
+	background-color: grey;
+	outline: 0;
+	border-radius: 8px;
+}
+
+.button:hover {
+	opacity: 0.8;
+}
+
+.text {
+	font-size: 20px;
+	color: gray;
+}
